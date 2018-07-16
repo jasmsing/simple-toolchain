@@ -47,7 +47,8 @@
         "prod-organization",
         "prod-space",
         "prod-app-name",
-	"api-key"
+	"api-key",
+	"myNewField"
     ],
     "form": [
         {
