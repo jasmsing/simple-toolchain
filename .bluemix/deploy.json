@@ -127,7 +127,7 @@
 	    "title": "My new field",
 	    "key": "myNewField",
 	    "enum": [
-	    	 "sdd","sdddfd"
+	    	 "ibm:yp:us-south": "US South"
 	    ]	
 	
         }
