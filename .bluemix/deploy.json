@@ -26,6 +26,10 @@
             "description": "The bluemix space",
             "type": "string"
         },
+	"myNewField": {
+            "description": "The bluemix space",
+            "type": "string"
+        },
         "api-key": {
             "description": "API key description",
             "type": "string"
@@ -116,6 +120,21 @@
                     "readonly": false
                 }
             ]
+        },
+	{
+	    "type": "select",
+	    "readonly": true,
+	    "title": "My new field",
+	    "key": "myNewField",
+	    "enum": {
+	    	 "ap-north": "Tokyo",
+                 "ap-south": "Sydney",
+                 "eu-central": "Germany",
+                 "uk-south": "United Kingdom",
+                 "us-east": "US East",
+                 "us-south": "US South"
+	    }	
+	
         }
     ]
 }
