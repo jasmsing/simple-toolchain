@@ -126,14 +126,14 @@
 	    "type": "select",
 	    "title": "My new field",
 	    "key": "myNewField",
-	    "enum": {
+	    "enum": [
 	    	 "ap-north": "Tokyo",
                  "ap-south": "Sydney",
                  "eu-central": "Germany",
                  "uk-south": "United Kingdom",
                  "us-east": "US East",
                  "us-south": "US South"
-	    }	
+	    ]	
 	
         }
     ]
